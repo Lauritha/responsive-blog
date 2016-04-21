@@ -2,6 +2,35 @@
 img{
 	max-width: 100%;
 }
+body{
+	background-color: #2d2735;
+}
+/*estilos del header*/
+header{
+	background-color: #1c1821;
+}
+header ul{
+	list-style: none;
+	text-align: right;
+	margin: 4% 4%;
+}
+header li{
+	display: inline-block;
+	margin-left: 3%;
+}
+header a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "Open Sans";
+}
+/*estilos del banner*/
+
+.banner{
+	background-image: url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 10%;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
