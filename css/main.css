@@ -51,6 +51,28 @@ header a{
 	font-size: 12px;
 }
 /*estilos de los articulos*/
+article{
+	text-align: center;
+	margin-left: 2%;
+}
+.datos{
+	background-color: #1c1821;
+	margin: 20px 0;
+}
+.datos h4{
+	color: #F6B96A;
+	font-family: "Courgette";
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.datos h5{
+	color: #ffffff;
+	font-family: "Courgette";
+	margin-bottom: 2%;
+	font-size: 12px;
+	padding: 5px;
+}
+/*estilos de las entradas*/
 
 /* Responsive */
 
