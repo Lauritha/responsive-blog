@@ -6,15 +6,15 @@ body{
 	background-color: #2d2735;
 }
 /*estilos del header*/
-header{
+header, footer{
 	background-color: #1c1821;
 }
-header ul{
+header .menu1{
 	list-style: none;
 	text-align: right;
 	margin: 4% 4%;
 }
-header li{
+header .menu2{
 	display: inline-block;
 	margin-left: 3%;
 }
@@ -99,8 +99,62 @@ article{
 .video{
 	background-color: #1c1821;
 }
+.video p{
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 12px;
+	margin: 10px;
+}
 /*estilos de about*/
-
+.buscar{
+	background-color: #1c1821;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+}
+.buscar input{
+	width: 100%;
+	padding: 10px;
+	background-color: #2D2735;
+	border: none;
+}
+.about{
+	background-color: #1c1821;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Open Sans";
+	margin-top: 10px;
+}
+.about p{
+	font-family: "Open Sans";
+	font-size: 12px;
+	margin: 5px;
+}
+.about h3{
+	color: #F6B96A;
+	font-family: "Courgette";
+	font-size: 14px;
+	margin: 10px;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	background-color: #2D2735;
+	padding: 5px 8px;
+	border-radius:20px;
+	margin: 10px;
+	font-size: 12px;
+}
+/*estilos del footer*/
+footer{
+	padding: 20px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "Open Sans";
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
