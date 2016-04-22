@@ -158,7 +158,16 @@ footer{
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+	.container, .col-4, .col-12, .col-8, .col-9{
+		width: 100%;
+		padding: 10px;
+	}
+	.video1{
+		width: 100%;
+	}
+	.col-9{
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 600px) {
