@@ -47,7 +47,7 @@ header a{
 .spring h4{
 	display: inline-block;
 	color: #ffffff;
-	margin: 2% 2%;
+	margin: 1% 2%;
 	font-size: 12px;
 }
 /*estilos de los articulos*/
@@ -73,6 +73,33 @@ article{
 	padding: 5px;
 }
 /*estilos de las entradas*/
+.text{
+	background-color: #1c1821;
+}
+.text h3, h4{
+	text-align: center;
+	padding: 5px;
+}
+.text h3{
+	color: #F6B96A;
+	font-family: "Courgette";
+	font-size: 14px;
+}
+.text h4{
+	font-family: "Open Sans";
+	color: #ffffff;
+	font-size: 12px;
+}
+.text p{
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 12px;
+	margin: 10px;
+}
+.video{
+	background-color: #1c1821;
+}
+/*estilos de about*/
 
 /* Responsive */
 
